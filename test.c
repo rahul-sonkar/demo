@@ -1,4 +1,4 @@
-// new updates v5.434
+// there is a bug in program v5.4*
 #include <stdio.h>
 int main(void)
 {

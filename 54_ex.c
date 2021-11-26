@@ -24,10 +24,9 @@ void twinPrime(int num)
 {
     for (int i = 2; i <= num; i++)
     {
-        if (isPrime(i))
+        if (isPrime(i) && isPrime(i - 2) && (i - (i - 2)) == 2 && (i - 2) > 2)
         {
-            if (isPrime(i - 2))
-                printf("twins prime [%d,%d]\n", i - 2, i);
+            printf("Twin Prime [%d,%d]\n", i - 2, i);
         }
     }
 }
